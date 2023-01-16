@@ -97,7 +97,7 @@ max-width: 1400px;
 width: 100%;
 padding-bottom: 1%;
 margin: 0 auto;
-height: 100px;
+/* height: 100px; */
 background-color: #F9F8FD;
 }
 
@@ -114,4 +114,150 @@ margin: 0 auto;
 height: 40px;
 /* padding-top: 10%; */
 border-radius: 20px;
+text-align: center;
 }
+
+.header_menu{
+width: 93%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 0.5%;
+}
+
+.logo{
+white-space: nowrap;
+}
+
+.logo-img{
+/* white-space: nowrap; */
+width: 170%;
+}
+
+/* .button-enter{
+} */
+
+.button-enter{
+	width: 40%;
+	/* height: 12%; */
+	/* padding-top: 0.5%;
+	padding-bottom: 5%; */
+	margin: 0 auto;
+	text-align: center;
+	/* margin-top: 4%; */
+	/* position: absolute; */
+	/* z-index:34; */
+	background-color:  #38BFF2;
+	border-radius: 18px;
+	display: flex;
+	cursor: pointer;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.button-enter:hover{
+	background-color:  #F15525;
+	cursor: pointer;
+}
+
+.button-enter_img{
+	width: 30%;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.arrow_enter-img{
+	width: 60%;
+	margin: 0 auto;
+}
+
+@media (min-width: 370px) {
+    [class="arrow_enter-img"] {
+		width: 50%;
+    }
+}
+
+@media (min-width: 450px) {
+    [class="arrow_enter-img"] {
+		width: 45%;
+    }
+}
+
+@media (min-width: 500px) {
+    [class="arrow_enter-img"] {
+		width: 35%;
+    }
+}
+
+@media (min-width: 600px) {
+    [class="arrow_enter-img"] {
+		width: 30%;
+    }
+}
+
+@media (min-width: 660px) {
+    [class="arrow_enter-img"] {
+		width: 25%;
+    }
+}
+
+@media (min-width: 780px) {
+    [class="arrow_enter-img"] {
+		width: 20%;
+    }
+}
+
+@media (min-width: 900px) {
+    [class="arrow_enter-img"] {
+		width: 17%;
+    }
+}
+
+@media (min-width: 1100px) {
+    [class="arrow_enter-img"] {
+		width: 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    [class="arrow_enter-img"] {
+		width: 12%;
+    }
+}
+
+.button-enter_text{
+	/* font-family: 'PT Sans'; */
+	width: 70%;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31.06px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.burger{
+	/* width: 20%; */
+	width: 25px;
+    height: 25px;
+	background-image: url(../image/burger_menu-black.svg);
+    /* background-image: url(../img_resume/IMG_48106\(400\).png); */ 
+    background-size: contain;
+    /* z-index: 10; */
+    cursor: pointer;  /*Курсор стає як рука з вказівним пальцем */
+    /* border-radius: 50%; */
+    background-repeat: no-repeat;
+    /* margin: 0 auto; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    padding: 0.6em;
+    margin-bottom: 1em;
+    z-index: 25; */
+	background-position: center;
+}
+
+.burger:hover{
+    background-image: url(../image/burger_menu.svg);
+    }
+    /*<hover> - ПСЕВДОСТИЛЬ - ЧТО ДЕЛАТЬ ПРИ НАВЕДЕНИИ МЫШКОЙ*/
