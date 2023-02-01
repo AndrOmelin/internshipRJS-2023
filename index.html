@@ -11,6 +11,7 @@
 
     <title>Programing school YtYt</title>
 </head>
+
 <body class="body">
 
   <div class="wrapper">
@@ -62,9 +63,10 @@
  <main class="main">
 
       <div class="school-comp_container">
-         <div class="content-school">   
+         <div class="content-school">
+           <div class="school-programing-div">
             <div class="school-h1">
-              <h1 class="school-h1_txt">Школа</h1>
+              <span class="school-h1_txt">Школа</span>
             </div>
 
             <div class="programming">
@@ -72,7 +74,7 @@
                 <span class="programming_txt">программирования</span>
                   <span class="brace">}</span>
             </div>
-
+           </div><!--<div class="school-programing-div">-->
             <div class="school-p">
                <p class="school-h1_txt">для тех, кому нужны</p>
             </div>
@@ -89,8 +91,8 @@
 
             <div class="free_lsns">
                <p class="free_lsns-txt">
-                  Пройти тестирование, чтобы получить доступ
-                  к бесплатным вводным урокам
+                  Пройти тестирование, чтобы получить<br>
+                  доступ к бесплатным вводным урокам
                </p>
             </div>
 
@@ -108,7 +110,7 @@
                         <p class="button-test-p">Пройти тестирование</p>
                      </div>
                        <div class="button-test_img">
-                         <img class="arrow_test-img" src="./image/arrow.svg" alt="arrow_inter(left-гз)">
+                         <img class="arrow_test-img" src="./image/arrow.svg" alt="arrow_inter(left-up)">
                        </div>
                   </div>
                </button>
@@ -121,8 +123,8 @@
                <div class="margin-ring_1"></div>
                <div class="ring-1">
                     <div class="margin-ring_2">
-                      <div class="comp-img">
-                         <img src="./image/comp.svg" alt="картинка ПК">
+                      <div class="comp-img-div">
+                         <img class="comp-img" src="./image/comp.svg" alt="картинка ПК">
                       </div>
                     </div>
                   <div class="ring-2">
@@ -141,7 +143,7 @@
                    </div>
                 </button>
               </div>
-          <!-- </div> -->
+           <!-- <div class="arrow-down_container"> -->
 
          <div class="technologies-education_container">
 
@@ -352,9 +354,10 @@
          </div><!--<div class="tecnologies-education_container">-->
 
                <div class="process-education_container">
-                  <div class="header_easy-education_container">
-                     <div class="header_easy-education_contant"><span>Как происходит
-                        <br>обучение на YtYt?</span>
+                  <div class="header_process-education_container">
+                     <div class="header_process-education_contant">
+                        <p>Как происходит&#160</p>
+                        <p>обучение на YtYt?<p>
                      </div>
                   </div>
                   <div class="process-education_container_contant">
@@ -368,13 +371,15 @@
 
                   <div class="process-education_laptop_container">
                      <div class="process-education_laptop">
-                       <button  id="open-form-modal-btn"></button>
+                      <div class="button-video-laptop-container">
+                       <button class="button-video-laptop"  id="open-form-modal-btn">
                         <div class="ring_orange-1">
                            <div class="ring_orange-2">
                               <img src="./image/play-trigon.svg" alt="Значок Play">
                            </div>
                         </div>
-                      </button>   
+                       </button>
+                      </div>  
                      </div>
                   </div> <!--<div class="process-education_laptop_container">-->
 
@@ -433,13 +438,13 @@
 
                      <div class="start-education_button_container">
                         <div class="start-education_button">
-                           <button class="button-test" id="open-form-modal-btn">
-                              <div class="button-test-content">
-                                 <div class="button-test-text">
-                                    <p class="button-test-p">Начать обучение</p>
+                           <button class="button-start-education" id="open-form-modal-btn">
+                              <div class="button-start-content">
+                                 <div class="button-start-text">
+                                    <p class="button-start-p">Начать обучение</p>
                                  </div>
-                                   <div class="button-test_img">
-                                     <img class="arrow_test-img" src="./image/arrow.svg" alt="arrow_inter(left-гз)">
+                                   <div class="button-start_img">
+                                     <img class="arrow_start-img" src="./image/arrow.svg" alt="arrow_inter(left-up)">
                                    </div>
                               </div>
                            </button>
@@ -581,6 +586,7 @@
             </div> 
          </div> <!--</div class="cost_of_course-table-qualification-container">-->
 
+
          <div class="start_learning-container">
             <div class="start_learning-card"> <!--Карточка с Грамофоном-Начало Обучения-->
                <div class="start_learning-card-img">
@@ -597,14 +603,14 @@
                         </p>
                      </div>
 
-                     <div class="start-education_button">
-                        <button class="button-test" id="open-form-modal-btn">
-                           <div class="button-test-content">
-                              <div class="button-test-text">
-                                 <p class="button-test-p">Начать обучение</p>
+                     <div class="start-education_button-2_container">
+                        <button class="button-start-education-2" id="open-form-modal-btn">
+                           <div class="button-start-education-2-content">
+                              <div class="button-start-education-2-text">
+                                 <p class="button-start-education-2-p">Начать обучение</p>
                               </div>
-                                <div class="button-test_img">
-                                  <img class="arrow_test-img" src="./image/arrow.svg" alt="arrow_inter(left-гз)">
+                                <div class="button-start-education-2_img">
+                                  <img class="arrow_start-education-2-img" src="./image/arrow.svg" alt="arrow_inter(left-гз)">
                                 </div>
                            </div>
                         </button>
@@ -614,17 +620,22 @@
          </div> <!--</div class="start_learning-container">-->
    </div> <!--</div class="cost_of_course">-->
 </main>
-  
+
      <footer class="footer">
-       <div class="footer_Yt-Yt_school-container">
+
+   <div class="footer-flexbox-align-colons">   
+      <div class="footer_Yt-Yt_school_and_social_media">
+         
+        <div class="footer_Yt-Yt_school-container">
             <div class="footer_Yt-Yt_school-logo">
                <a href="#"><img class="logo-footer-img" src="./image/logo.svg" alt="Logo-YtYt"></a>
             </div>
 
             <div class="footer_Yt-Yt_school-content">
-               <p>Школа программирования</p>
+               <p>Школа<br>
+                  программирования</p>
             </div>
-       </div> <!-- </div class="footer_Yt-Yt_school-container">-->
+        </div> <!-- class="footer_Yt-Yt_school-container"> -->
 
          <div class="social_media-container">
             <div class="insta-footer">
@@ -651,40 +662,49 @@
                </a>
             </div>
 
+         </div> <!-- </div class="social_media-container">-->
+
+      </div><!-- div class="footer_Yt-Yt_school_and_social_media">-->
+
+
+
+
+
+         <div class="footer-flexbox-align-navigation-contacts">
+            <div class="footer_navigation_container">
+         <div class="footer_navigation_point">
+               <a class="footer_navigation_point-href"
+               href="#">Чему вы научитесь</a>
          </div>
 
-         <div class="footer_navigation_container">
-            <div class="footer_navigation_point">
-                  <a class="footer_navigation_point-href"
-                  href="#">Чему вы научитесь</a>
-            </div>
+         <div class="footer_navigation_point">
+            <a class="footer_navigation_point-href"
+            href="#">Процесс обучения</a>
+         </div>
 
-            <div class="footer_navigation_point">
-               <a class="footer_navigation_point-href"
-               href="#">Процесс обучения</a>
-            </div>
+         <div class="footer_navigation_point">
+            <a class="footer_navigation_point-href"
+            href="#">Стоимость</a>
+         </div>
 
-            <div class="footer_navigation_point">
-               <a class="footer_navigation_point-href"
-               href="#">Стоимость</a>
-            </div>
+         <div class="footer_navigation_point">
+            <a class="footer_navigation_point-href"
+            href="#">Контакты</a>
+         </div>
 
-            <div class="footer_navigation_point">
-               <a class="footer_navigation_point-href"
-               href="#">Контакты</a>
-            </div>
+         <div class="footer_navigation_point">
+            <a class="footer_navigation_point-href"
+            href="#">Регистрация</a>
+         </div>
+            </div><!-- <class="footer_navigation_container"> --> 
 
-            <div class="footer_navigation_point">
-               <a class="footer_navigation_point-href"
-               href="#">Регистрация</a>
-            </div>
-         </div><!-- <class="footer_navigation_container"> --> 
-
-         <div class="footer_contacts_container">
+              <div class="footer_contacts_container">
 
             <div class="footer_contact_telephone">
                <a href="tel:+380679664072" class="telephone-link">+38 (067) 966 40 72</a>
             </div>
+
+            <!-- <a href="tel:+380679664072" class="telephone-link">+38 (067) 966 40 72</a> -->
 
             <div class="footer_contact_email">
                <a href="melinus1990@gmail.com" target="_blank" class="email-link">melinus1990@gmail.com</a>
@@ -698,13 +718,20 @@
                <span>Я на GitHub -
                <a  href="https://github.com/AndrOmelin" target="_blank"
                class="my_git-hub_href">AndrOmelin</a>
+               <!-- <a  href="https://github.com/AndrOmelin" target="_blank" -->
                </span>
             </div>
-         </div> <!-- <class="footer_contacts_container"> --> 
-
-            <div class="undercore_school"></div>
+              </div> <!-- <class="footer_contacts_container"> --> 
+         </div> <!-- <class="footer-flexbox-align-navigation-contacts"> --> 
+    
+              
+   </div> <!-- <class="footer-flexbox-align-colons"> -->     
+         
+   
+   <div class="undercore_footer"></div>
 
          <div class="footer_copyright_container">
+
             <div class="footer_original-design">
                <span>Оригинальный макет сайта -
                <a  href="https://www.figma.com/file/wO7oUh1UZ8CTasIfO10MOr/YtYt-%2B?node-id=0%3A1&t=lDjWLRum7TMNpFfJ-0" target="_blank"
@@ -712,16 +739,19 @@
                </span>
             </div>
 
-              <div class="footer_copyright">
+            <div class="footer_copyright_1and2">
+              <div class="footer_copyright-1">
                  <a  href="#" target="_blank"
-                 class="copyright-link">Пользовательское соглашение</a>
+                 class="copyright-link-1">Пользовательское соглашение</a>
               </div>
 
-               <div class="footer_copyright">
+               <div class="footer_copyright-2">
                   <a  href="#" target="_blank"
-                  class="copyright-link">
+                  class="copyright-link-2">
                   Все права защищены</a>
                </div>
+            </div> <!-- <class="footer_copyright_1and2"> -->
+
          </div> <!-- <class="footer_copyright_container"> -->
 
      </footer> 
